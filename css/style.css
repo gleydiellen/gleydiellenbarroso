@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    /*font-size: 200%;*/
+   }
+
+   p {
+    line-height: 2;
+   }
+
+   a {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+   }
+
+   a:hover {
+    color: #EAF6F6;
+   }
+
+    h1 {
+    /*Tipos de fontes estáticas e não estáticas = 16px= 100% = 1em*/
+    color: #66BFBF;
+    font-size: 5.625rem;
+    /*line-height: 2;*/
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    }
+
+    h2 {
+      color: #66BFBF;
+      font-size: 2.5rem;
+      font-weight: normal;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    h3 {
+      color: #11999E;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    hr {
+      border: dotted #EAF6F6 6px;
+      border-bottom: none;
+      width: 4%;
+      margin: 100px auto;
+    }
+
+    /*Chamando as classes*/
+
+    .top-container {
+      background-color: #EAF6F6;
+      position: relative;
+      padding-top: 2px;
+    }
+
+    .middle-container {
+      margin: 100px 0;
+    }
+
+    .pro {
+
+    }
+ 
+    .intro {
+     width: 30%;
+     margin: auto;
+    }
+
+    .top-cloud {
+      position: absolute;
+      right: 300px;
+      top: 50px;
+    }
+
+     .bottom-cloud {
+      position: absolute;
+      left: 300px;
+      bottom: 300px;
+    }
+
+    .mountain-img {
+      width: 40%;
+    }
+
+    .bottom-container {
+      color: #66BFBF;
+      background-color: #b1cce2;
+      position: relative;
+      padding: 50px 0 20px;
+      height: 50%;
+    }
+
+    .skill-row {
+      width: 50%;
+      margin: 100px auto 100px auto;
+      text-align: left;
+    }
+
+    .logo1 {
+      width: 25%;
+      float: left;
+      margin-right: 30px;
+    }
+
+    .logo2 {
+      width: 25%;
+      float: right;
+      margin-right: 30px;
+    }
+
+    .contact-message {
+      width: 40%;
+      margin: 40px auto 60px;
+    }
+
+    .copyright {
+      color: #EAF6F6;
+      font-size: 0.75rem;
+      padding: 20px 0;
+    }
+
+    .btn {
+      background: #3498db;
+      background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+      background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+      background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+      background-image: -o-linear-gradient(top, #3498db, #2980b9);
+      background-image: linear-gradient(to bottom, #3498db, #2980b9);
+      -webkit-border-radius: 28;
+      -moz-border-radius: 28;
+      border-radius: 28px;
+      font-family: 'Montserrat', sans-serif;
+      color: #ffffff;
+      font-size: 14px;
+      padding: 10px 20px 10px 20px;
+      text-decoration: none;
+    }
+
+    .btn:hover {
+      background: #3cb0fd;
+      background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+      background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+      background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+      background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+      background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+      text-decoration: none;
+    }
+    
+  
+/******* chamando classes e alterando as margens***********/
+/*
+    .middle-container {
+        background-color: blue;
+        border: solid 20px;
+        margin-left: 260px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .bottom-container {
+        background-color: red;
+        margin-left: 500px;
+        border: solid 10px;
+        width: 200px;
+        height: 200px;
+    }
+*/
+
+/**************criar blocos na mesma linha e alterar as posicoes***********************/
+/*
+.red {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  position: relative;
+  display: inline-block;
+  left: 400px;
+}
+
+.yellow {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  display: inline-block;
+  position: relative;
+  right: 200px;
+}
+
+.blue {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  display: inline-block;
+  position: relative;
+  right: 205px;
+}
+
+body {
+  display: inline;
+}
+*/
+ 
+
